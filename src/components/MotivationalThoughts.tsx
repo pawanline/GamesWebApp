@@ -8,6 +8,10 @@ interface Thought {
   quote: string;
   author: string;
   category: string;
+  image: string;
+  imageAlt: string;
+  imageTitle: string;
+  imageSubtitle: string;
 }
 
 const motivationalThoughts: Thought[] = [
@@ -17,6 +21,10 @@ const motivationalThoughts: Thought[] = [
       'Every champion was once a beginner who refused to give up. Your journey to greatness starts with a single step.',
     author: 'Gaming Legend',
     category: 'Persistence',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80',
+    imageAlt: 'Mountain peak at sunrise',
+    imageTitle: 'Rise Above',
+    imageSubtitle: 'Every peak was once a valley',
   },
   {
     id: 2,
@@ -24,6 +32,10 @@ const motivationalThoughts: Thought[] = [
       'In gaming and life, failure is just practice for success. Each defeat teaches you something new.',
     author: 'Pro Gamer',
     category: 'Resilience',
+    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80',
+    imageAlt: 'Sunrise over mountains with clouds',
+    imageTitle: 'New Beginnings',
+    imageSubtitle: 'After every storm comes a rainbow',
   },
   {
     id: 3,
@@ -31,6 +43,10 @@ const motivationalThoughts: Thought[] = [
       'Teamwork makes the dream work. Surround yourself with players who lift you higher.',
     author: 'Esports Champion',
     category: 'Collaboration',
+    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?w=800&q=80',
+    imageAlt: 'People hiking together on mountain',
+    imageTitle: 'Together We Climb',
+    imageSubtitle: 'Unity creates strength',
   },
   {
     id: 4,
@@ -38,6 +54,10 @@ const motivationalThoughts: Thought[] = [
       'Skills are developed, not discovered. Every hour you practice is an investment in your future.',
     author: 'Motivational Speaker',
     category: 'Growth',
+    image: 'https://images.unsplash.com/photo-1464822759844-d150ad6bfbfc?w=800&q=80',
+    imageAlt: 'Growing plant sprouting from ground',
+    imageTitle: 'Keep Growing',
+    imageSubtitle: 'Every day is a chance to improve',
   },
   {
     id: 5,
@@ -45,6 +65,10 @@ const motivationalThoughts: Thought[] = [
       'The best time to start was yesterday. The second best time is now. Stop waiting for the perfect moment.',
     author: 'Life Coach',
     category: 'Action',
+    image: 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=800&q=80',
+    imageAlt: 'Person running at sunrise',
+    imageTitle: 'Start Today',
+    imageSubtitle: 'The journey of a thousand miles begins with one step',
   },
   {
     id: 6,
@@ -52,6 +76,10 @@ const motivationalThoughts: Thought[] = [
       'Your mindset is your greatest weapon. Believe you can, and you\'re halfway there.',
     author: 'Mindset Master',
     category: 'Mindset',
+    image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80',
+    imageAlt: 'Person meditating on mountain top',
+    imageTitle: 'Power Within',
+    imageSubtitle: 'Your thoughts shape your reality',
   },
   {
     id: 7,
@@ -59,6 +87,10 @@ const motivationalThoughts: Thought[] = [
       'Champions aren\'t made in comfort zones. Push beyond your limits and watch yourself grow.',
     author: 'Elite Competitor',
     category: 'Challenge',
+    image: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&q=80',
+    imageAlt: 'Rock climber scaling cliff',
+    imageTitle: 'Push Forward',
+    imageSubtitle: 'Growth happens outside your comfort zone',
   },
   {
     id: 8,
@@ -66,6 +98,10 @@ const motivationalThoughts: Thought[] = [
       'Focus on progress, not perfection. Small improvements daily lead to extraordinary results.',
     author: 'Success Coach',
     category: 'Progress',
+    image: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800&q=80',
+    imageAlt: 'Staircase going up',
+    imageTitle: 'Step by Step',
+    imageSubtitle: 'Progress, not perfection',
   },
   {
     id: 9,
@@ -73,6 +109,10 @@ const motivationalThoughts: Thought[] = [
       'The grind never stops. While others rest, champions train. Your dedication will pay off.',
     author: 'Pro Athlete',
     category: 'Dedication',
+    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80',
+    imageAlt: 'Athlete training at dawn',
+    imageTitle: 'Keep Grinding',
+    imageSubtitle: 'Dedication creates champions',
   },
   {
     id: 10,
@@ -80,6 +120,10 @@ const motivationalThoughts: Thought[] = [
       'Turn your setbacks into comebacks. Every obstacle is an opportunity in disguise.',
     author: 'Comeback King',
     category: 'Resilience',
+    image: 'https://images.unsplash.com/photo-1473773508845-188df298d2d1?w=800&q=80',
+    imageAlt: 'Phoenix rising from ashes',
+    imageTitle: 'Rise Again',
+    imageSubtitle: 'Turn setbacks into comebacks',
   },
   {
     id: 11,
@@ -87,6 +131,10 @@ const motivationalThoughts: Thought[] = [
       'Success is not final, failure is not fatal: it is the courage to continue that counts.',
     author: 'Winston Churchill',
     category: 'Courage',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
+    imageAlt: 'Brave warrior standing on cliff',
+    imageTitle: 'Be Courageous',
+    imageSubtitle: 'Courage is the key to success',
   },
   {
     id: 12,
@@ -94,6 +142,10 @@ const motivationalThoughts: Thought[] = [
       'The only way to do great work is to love what you do. Passion fuels excellence.',
     author: 'Steve Jobs',
     category: 'Passion',
+    image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80',
+    imageAlt: 'Artist creating masterpiece',
+    imageTitle: 'Follow Passion',
+    imageSubtitle: 'Love what you do, do what you love',
   },
   {
     id: 13,
@@ -101,6 +153,10 @@ const motivationalThoughts: Thought[] = [
       'Don\'t watch the clock; do what it does. Keep going. Time is your greatest ally.',
     author: 'Sam Levenson',
     category: 'Perseverance',
+    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80',
+    imageAlt: 'Clock in nature setting',
+    imageTitle: 'Keep Moving',
+    imageSubtitle: 'Perseverance is the key',
   },
   {
     id: 14,
@@ -108,6 +164,10 @@ const motivationalThoughts: Thought[] = [
       'Victory belongs to the most persevering. Consistency beats intensity every time.',
     author: 'Napoleon Bonaparte',
     category: 'Consistency',
+    image: 'https://images.unsplash.com/photo-1490971774357-ceee54e7e9f2?w=800&q=80',
+    imageAlt: 'Waves consistently hitting shore',
+    imageTitle: 'Stay Consistent',
+    imageSubtitle: 'Small steps, big results',
   },
   {
     id: 15,
@@ -115,6 +175,10 @@ const motivationalThoughts: Thought[] = [
       'The difference between ordinary and extraordinary is that little extra effort you give.',
     author: 'Jimmy Johnson',
     category: 'Excellence',
+    image: 'https://images.unsplash.com/photo-1464207687429-7505649dae38?w=800&q=80',
+    imageAlt: 'Golden hour landscape',
+    imageTitle: 'Be Extraordinary',
+    imageSubtitle: 'Excellence is a choice',
   },
   {
     id: 16,
@@ -122,6 +186,10 @@ const motivationalThoughts: Thought[] = [
       'Dream big, work hard, stay focused, and surround yourself with positive people.',
     author: 'Success Mentor',
     category: 'Vision',
+    image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80',
+    imageAlt: 'Person looking at stars at night',
+    imageTitle: 'Dream Big',
+    imageSubtitle: 'Vision without action is just a dream',
   },
 ];
 
@@ -180,18 +248,19 @@ export default function MotivationalThoughts() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Image Section */}
             <div className="relative order-2 lg:order-1">
-              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl shadow-indigo-500/20 border-4 border-white">
+              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl shadow-indigo-500/20 border-4 border-white transition-all duration-500 ease-in-out">
                 <Image
-                  src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-                  alt="Motivational mountain peak"
+                  key={thought.id}
+                  src={thought.image}
+                  alt={thought.imageAlt}
                   fill
-                  className="object-cover"
-                  priority
+                  className="object-cover transition-opacity duration-500"
+                  priority={currentThought === 0}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/60 via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8 text-white">
-                  <p className="text-2xl font-bold mb-2">Rise Above</p>
-                  <p className="text-sm opacity-90">Every peak was once a valley</p>
+                  <p className="text-2xl font-bold mb-2 transition-all duration-500">{thought.imageTitle}</p>
+                  <p className="text-sm opacity-90 transition-all duration-500">{thought.imageSubtitle}</p>
                 </div>
               </div>
               {/* Decorative accent */}
