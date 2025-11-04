@@ -76,7 +76,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/your_instagram_username"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-indigo-600 transition-colors transform hover:scale-110"
